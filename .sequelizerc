@@ -1,0 +1,7 @@
+const path = require('path');
+require('dotenv').config('./.env');
+module.exports = {
+  'config': path.join(__dirname, 'dist', 'utils', 'configs', 'db.js'),
+  'migrations-path': path.join(__dirname, 'dist', 'data', 'database', 'mysql', 'migrations'),
+  'env': 'production'
+}
