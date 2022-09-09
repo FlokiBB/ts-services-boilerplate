@@ -21,8 +21,6 @@
     "convict": "^6.2.1",
     "dotenv": "^15.0.0",
     "express": "^4.17.1",
-    "mysql2": "^2.3.0",
-    "newrelic": "^8.14.1",
     "node-cache": "^5.1.2",
     "node-cron": "^3.0.0",
     "sequelize": "^6.16.2",
